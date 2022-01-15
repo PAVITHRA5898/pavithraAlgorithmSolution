@@ -1,0 +1,10 @@
+a) T (n) = 3T (n/2) + n
+	Θ(n^(log(base 2)3))
+b) T (n) = 64T (n/8) − n^2(log n)
+	Θ(n^2/2 log(1/n)log n)
+c) T (n) = 2nT (n/2) + n^n
+	Does not apply (a is not constant)
+d) T (n) = 3T (n/3) + n/2
+	Θ(n log n)
+e) .T (n) = 7T (n/3) + n^2
+	Θ(n^2)
